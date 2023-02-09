@@ -1,5 +1,12 @@
 #!/usr/bin/python3
+
+""" find the minimum no of ops req"""
+
+
 def min_operations(n):
+
+    """  calculates the fewest number of operations needed"""
+
     operations = 0
     while n != 1:
         if n % 2 == 0:
