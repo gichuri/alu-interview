@@ -3,7 +3,7 @@
 """ find the minimum no of ops req"""
 
 
-def min_operations(n):
+def minOperations(n):
 
     """  calculates the fewest number of operations needed"""
 
