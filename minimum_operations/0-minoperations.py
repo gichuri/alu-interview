@@ -2,9 +2,10 @@
 
 """ find the minimum no of ops req"""
 
+
 def minOperations(n):
     """Create sum"""
-    
+
     if type(n) is not int or n <= 1:
         return 0
     operations_sum = []
