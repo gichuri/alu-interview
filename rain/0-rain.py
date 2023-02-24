@@ -1,5 +1,9 @@
 #!/usr/bin/python3
 
+"""
+calculate the amount of water
+retained in walls """
+
 def rain(walls):
     """
     Calculate the amount of rainwater retained by the given walls.
@@ -9,10 +13,6 @@ def rain(walls):
 
     Returns:
     int: The total amount of water retained in the walls, in square units.
-
-    Example:
-    >>> rain([0, 1, 0, 2, 0, 3, 0, 4])
-    6
 
     """
 
