@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+""" get rain retained in walls"""
+
+
 def rain(walls):
     n = len(walls)
     left = [0] * n
@@ -18,8 +21,8 @@ def rain(walls):
 
     return water
 
+
 # Example usage
 walls = [0, 1, 0, 2, 0, 3, 0, 4]
 water_retained = get_water_retained(walls)
 print(water_retained)  # Output: 6
-
