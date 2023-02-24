@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+
 """ get rain retained in walls"""
 
 
 def rain(walls):
+    """ function that calculates water retained"""
     n = len(walls)
     left = [0] * n
     right = [0] * n
