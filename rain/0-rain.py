@@ -1,4 +1,5 @@
-def get_water_retained(walls):
+#!/usr/bin/python3
+def rain(walls):
     n = len(walls)
     left = [0] * n
     right = [0] * n
