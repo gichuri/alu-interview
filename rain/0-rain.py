@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 
-""" get rain retained in walls"""
+''' get rain retained in walls''' 
 
 
 def rain(walls):
-    """ function that calculates water retained"""
+    
+    ''' function that calculates water retained'''
+    
     if len(walls) == 0: 
         continue
     else:
