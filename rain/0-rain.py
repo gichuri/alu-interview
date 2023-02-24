@@ -3,6 +3,7 @@
 module o-rain
 """
 
+
 def rain(walls):
     """
     Calculate the amount of rainwater retained by the given walls.
