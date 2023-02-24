@@ -22,9 +22,3 @@ def rain(walls):
         water += max(0, min(left[i], right[i]) - walls[i])
 
     return water
-
-
-# Example usage
-walls = [0, 1, 0, 2, 0, 3, 0, 4]
-water_retained = get_water_retained(walls)
-print(water_retained)  # Output: 6
