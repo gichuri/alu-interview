@@ -1,23 +1,15 @@
 #!/usr/bin/python3
-
 """
-calculate the amount of water
-retained in walls """
+module o-rain
+"""
 
 def rain(walls):
     """
     Calculate the amount of rainwater retained by the given walls.
-
-    Args:
-    walls (list of int): A list of non-negative integers representing the heights of walls with unit width 1.
-
-    Returns:
-    int: The total amount of water retained in the walls, in square units.
-
     """
 
     if len(walls) == 0:
-        continue
+        return 0
     else:
         n = len(walls)
         left = [0] * n
