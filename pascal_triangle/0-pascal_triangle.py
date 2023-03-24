@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """
 Print Pascal's Triangle
@@ -5,7 +6,7 @@ Print Pascal's Triangle
 
 
 def pascal_triangle(n):
-    #returns Pascal's triangle in a list of list
+    """returns Pascal's triangle in a list of list"""
     my_list = []
     if (n <= 0):
         return my_list
